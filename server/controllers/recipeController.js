@@ -51,8 +51,9 @@ module.exports = {
 
     const index = recipes.findIndex(element =>
       element.id === +id)
-
+    console.log(index)
     if (index === -1) {
+      console.log('recipe not found')
       return res.status(404).send("Recipe not found")
     }
 
