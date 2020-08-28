@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Recipe from './Recipe'
 import axios from 'axios';
+import InputRecipe from './InputRecipe'
 
 class Display extends Component {
   constructor() {
@@ -26,8 +27,10 @@ class Display extends Component {
     })
   }
 
-  addRecipe(title, image, ingredients, instructions) {
-    axios.post('/api/recipes', { title, image, ingredients, instructions }).then(res => {
+  addRecipe(obj) {
+    console.log('new', obj)
+    axios.post('/api/recipes', obj).then(res => {
+      console.log('res', res.data)
       this.setState({
         recipes: res.data
       })
@@ -36,8 +39,8 @@ class Display extends Component {
     })
   }
 
-  editRecipe(id, title, image, ingredients, instructions) {
-    axios.put(`/api/recipes/${id}`, { title, image, ingredients, instructions }).then(res => {
+  editRecipe(id, obj) {
+    axios.put(`/api/recipes/${id}`, { obj }).then(res => {
       this.setState({
         recipes: res.data
       })
@@ -57,23 +60,13 @@ class Display extends Component {
     })
   }
 
-
-
   render() {
     return (
       <div>
-        <div>
-
-          <input placeholder="Title"></input>
-          <input placeholder="Image"></input>
-          <input placeholder="Ingredients"></input>
-          <input placeholder="Instructions"></input>
-          <button>Submit</button>
-
-        </div>
+        <InputRecipe addRecipe={this.addRecipe} />
         {this.state.recipes.map((element) => {
           return (
-            <Recipe key={element.id} data={element} deleteRecipe={this.deleteRecipe} edit={this.editRecipe} />
+            <Recipe key={element.id} data={element} deleteRecipe={this.deleteRecipe} editRecipe={this.editRecipe} />
           )
         })}
       </div>

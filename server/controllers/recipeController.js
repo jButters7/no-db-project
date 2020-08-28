@@ -7,7 +7,6 @@ module.exports = {
     res.status(200).send(recipes)
   },
   addRecipe: (rec, res) => {
-    // console.log(rec.body)
     const { title, image, ingredients, instructions } = rec.body
     const newRecipe = {
       id,

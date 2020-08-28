@@ -1,4 +1,5 @@
 import React from 'react'
+import EditRecipe from './EditRecipe'
 
 const Recipe = props => {
   const { id, title, image, ingredients, instructions } = props.data
@@ -10,6 +11,9 @@ const Recipe = props => {
       <div>{instructions}</div>
       <button>Edit</button>
       <button onClick={() => props.deleteRecipe(id)}>Remove</button>
+
+      <EditRecipe data={props.data} editRecipe={props.editRecipe} />
+
     </div >
   )
 }
