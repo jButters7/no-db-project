@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "Scott's Tank Cake",
+    "image": "https://i.pinimg.com/originals/c7/09/7a/c7097a04bd391c9f28e6dad248f538e9.jpg",
+    "ingredients": [
+      "1 teaspoon baking powder",
+      "1 teaspoon fine salt",
+      "1/2 cup vegetable oil",
+      "5 large eggs",
+      "1 tablespoon pure vanilla extract",
+      "1 cup milk",
+      "2 cups sugar"
+    ],
+    "instructions": "Preheat the oven to 350 degrees F. Butter the bottoms and sides of two 9-inch round cake pans; dust with flour, and tap out the excess. Whisk together the flour, baking powder and salt in a medium bowl; set aside. Beat the butter, sugar and oil in a large bowl with an electric mixer on medium-high speed until light in color and fluffy, about 5 minutes. Beat in the eggs, one at a time, and then the vanilla until combined. Alternate folding the flour mixture and the milk into the batter with a spatula, adding the flour in three additions and the milk in two, starting and ending with the flour, until just smooth. Divide the batter evenly between the prepared pans. Bake the cakes on the same oven rack until golden on top and the centers spring back to the touch, 35 to 40 minutes. Rotate the pans about halfway through if they seem to be browning unevenly. Let cool in the pans about 10 minutes, then turn out onto cooling racks and let cool completely."
+  },
+  {
+    "id": 1,
+    "title": "Andrew's Overwatch Soup",
+    "image": "https://i.pinimg.com/originals/c7/09/7a/c7097a04bd391c9f28e6dad248f538e9.jpg",
+    "ingredients": [
+      "1 teaspoon baking powder",
+      "1 teaspoon fine salt",
+      "1/2 cup vegetable oil",
+      "5 large eggs",
+      "1 tablespoon pure vanilla extract",
+      "1 cup milk",
+      "2 cups sugar"
+    ],
+    "instructions": "Preheat the oven to 350 degrees F. Butter the bottoms and sides of two 9-inch round cake pans; dust with flour, and tap out the excess. Whisk together the flour, baking powder and salt in a medium bowl; set aside. Beat the butter, sugar and oil in a large bowl with an electric mixer on medium-high speed until light in color and fluffy, about 5 minutes. Beat in the eggs, one at a time, and then the vanilla until combined. Alternate folding the flour mixture and the milk into the batter with a spatula, adding the flour in three additions and the milk in two, starting and ending with the flour, until just smooth. Divide the batter evenly between the prepared pans. Bake the cakes on the same oven rack until golden on top and the centers spring back to the touch, 35 to 40 minutes. Rotate the pans about halfway through if they seem to be browning unevenly. Let cool in the pans about 10 minutes, then turn out onto cooling racks and let cool completely."
+  }
+]
