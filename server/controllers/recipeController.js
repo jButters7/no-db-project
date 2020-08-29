@@ -21,6 +21,7 @@ module.exports = {
 
   },
   editRecipe: (rec, res) => {
+    console.log("backend Id", id)
     const { id } = rec.params
     const { title, image, ingredients, instructions } = rec.body
     const index = recipes.findIndex(element => {

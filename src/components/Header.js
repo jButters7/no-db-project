@@ -1,8 +1,14 @@
 import React from 'react'
 
+
 function Header() {
   return (
-    <div> Recipe Tracker </div>
+    <div>
+      <div className='header'>
+        <header className='header-child'> Recipe Tracker </header>
+        <a href="#add-recipe" className='header-button'>Add Recipe</a>
+      </div>
+    </div>
   )
 }
 

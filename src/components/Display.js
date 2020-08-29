@@ -40,6 +40,7 @@ class Display extends Component {
   }
 
   editRecipe(id, obj) {
+    console.log("id:", id, "obj", obj)
     axios.put(`/api/recipes/${id}`, { obj }).then(res => {
       this.setState({
         recipes: res.data
@@ -63,12 +64,12 @@ class Display extends Component {
   render() {
     return (
       <div>
-        <InputRecipe addRecipe={this.addRecipe} />
         {this.state.recipes.map((element) => {
           return (
             <Recipe key={element.id} data={element} deleteRecipe={this.deleteRecipe} editRecipe={this.editRecipe} />
           )
         })}
+        <InputRecipe addRecipe={this.addRecipe} />
       </div>
     )
   }

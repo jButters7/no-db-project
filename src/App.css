@@ -1,43 +1,129 @@
-img{
-  height:100px;
-  width: 100px;
+*{
+  box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  height: 70px;
+  background-color: #40B2BF;
+  color: black;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-child{
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.header-button{
+  margin-right: 65px;
+  background-color: #C45A4E;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 8px 12px;
+  color: black;
+  text-decoration: none;
+}
+
+main{
+  background-color: #A1DFC6;
+}
+
+input{
+  margin: 10px;
+}
+
+.input{
+  height: 50px;
+  width: 60vw;
+  background-color: #C45A4E;
+  display: flex;
+  font-family: sans-serif;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 8px;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.recipe-container{}
+
+.recipe-title{
+  display: flex;
+  background-color: white;
+  margin: 0px 50px;
+  margin-top: 40px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipe-info{
+  display: flex;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 20px;
 }
+
+.title{
+  margin-left: 20px;
+  margin-bottom: -20px;
+  margin-top: 10px;
+}
+
+.action{
+  position: absolute;
+  justify-content: flex-end;
+  right: 60px;
+}
+
+.action-btn{
+  margin: 7px;
+  background-color: #C45A4D;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.action-btn:hover{
+  background-color: #D9958D;
+}
+
+b{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+img{
+  height: 250px;
+  margin: 10px;
+}
+
+.ingredients{
+  font-family: sans-serif;
+margin: 10px;
+line-height: 20px;
+}
+
+.instructions{
+  font-family: sans-serif;
+  width: 190%;
+  margin: 10px;
+  line-height: 20px;
+}
+

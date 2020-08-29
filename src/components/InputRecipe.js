@@ -36,7 +36,7 @@ class InputRecipe extends Component {
   render() {
     const { title, image, ingredients, instructions } = this.state
     return (
-      <div>
+      <div className="input" id="add-recipe">
         <input value={title} onChange={e => this.handleNewRecipe(e)} placeholder="Title" name="title"></input>
         <input value={image} onChange={e => this.handleNewRecipe(e)} placeholder="Image" name="image"></input>
         <input value={ingredients} onChange={e => this.handleNewRecipe(e)} placeholder="Ingredients" name="ingredients"></input>
