@@ -8,17 +8,19 @@ class Display extends Component {
     super();
 
     this.state = {
-      recipes: []
+      recipes: [],
+      search: ''
     }
 
     this.addRecipe = this.addRecipe.bind(this)
     this.editRecipe = this.editRecipe.bind(this)
     this.deleteRecipe = this.deleteRecipe.bind(this)
+    // this.searchRecipes = this.searchRecipes.bind(this)
   }
 
   componentDidMount() {
     axios.get('/api/recipes').then(res => {
-      console.log(res.data)
+      // console.log(res.data)
       this.setState({
         recipes: res.data
       })
@@ -60,15 +62,39 @@ class Display extends Component {
     })
   }
 
-  // searchRecipes(e) {
+  // handleSearch(e) {
+  //   console.log(e.target.value)
   //   this.setState({
-  //     [e.target.name]: e.target.value
+  //     search: e.target.value
   //   })
   // }
 
+  // searchRecipes(event) {
+  //   event.preventDefault()
+  //   this.state.recipes.findIndex(index => {
+  //     console.log(index.title)
+  //     if (index.title === this.state.search) {
+  //       console.log(index)
+  //       this.setState({
+  //         recipes: [index]
+  //       })
+  //       console.log('here you go', this.state.recipes)
+  //     } else {
+  //       console.log('recipe not found')
+  //     }
+  //   })
+
+  // }
+
   render() {
+
     return (
       <div>
+        {/* <form>
+          <input placeholder="Search Recipes       &#128269;" className="search-recipes" name="search" onChange={(e) => this.handleSearch(e)} />
+          <button onClick={() => this.searchRecipes()} type='submit'>Search</button>
+        </form> */}
+
         {this.state.recipes.map((element) => {
           return (
             <Recipe key={element.id} data={element} deleteRecipe={this.deleteRecipe} editRecipe={this.editRecipe} />
