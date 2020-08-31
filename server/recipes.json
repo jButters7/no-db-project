@@ -4,29 +4,77 @@
     "title": "Scott's Tank Cake",
     "image": "https://i.pinimg.com/originals/c7/09/7a/c7097a04bd391c9f28e6dad248f538e9.jpg",
     "ingredients": [
-      "1 teaspoon baking powder",
-      "1 teaspoon fine salt",
-      "1/2 cup vegetable oil",
-      "5 large eggs",
-      "1 tablespoon pure vanilla extract",
-      "1 cup milk",
-      "2 cups sugar"
+      "1 teaspoon gun powder. ",
+      "1 teaspoon fine fuses. ",
+      "1/2 cup vegetable oil. ",
+      "5 large eggs. ",
+      "1 tablespoon pure vanilla extract. ",
+      "1 cup milk. ",
+      "2 cups sugar. "
     ],
     "instructions": "Preheat the oven to 350 degrees F. Butter the bottoms and sides of two 9-inch round cake pans; dust with flour, and tap out the excess. Whisk together the flour, baking powder and salt in a medium bowl; set aside. Beat the butter, sugar and oil in a large bowl with an electric mixer on medium-high speed until light in color and fluffy, about 5 minutes. Beat in the eggs, one at a time, and then the vanilla until combined. Alternate folding the flour mixture and the milk into the batter with a spatula, adding the flour in three additions and the milk in two, starting and ending with the flour, until just smooth. Divide the batter evenly between the prepared pans. Bake the cakes on the same oven rack until golden on top and the centers spring back to the touch, 35 to 40 minutes. Rotate the pans about halfway through if they seem to be browning unevenly. Let cool in the pans about 10 minutes, then turn out onto cooling racks and let cool completely."
   },
   {
     "id": 1,
-    "title": "Andrew's Tomato Soup",
+    "title": "Andrew's Culver Butterburger",
+    "image": "https://copykat.com/wp-content/uploads/2019/05/copycat-culvers-butter-burger-recipe-500x500.jpg",
+    "ingredients": [
+      "8 tablespoons salted butter. ",
+      "salt and pepper (to taste). ",
+      "1lb ground beef. ",
+      "4 hamburger buns. ",
+      "4 slices cheddar cheese. ",
+      "Dill pickle slices. "
+    ],
+    "instructions": "Form the ground beef into 4 patties. Season on both sides with salt and pepper to taste. Spread 2 tablespoons of butter onto each bun top. Heat a large skillet to medium-high heat. Add the beef patties and cook for about 3 minutes. Flip and cook for an additional 2 minutes. Top each with a slice of cheddar cheese. Cook until the cheese has melted and the burgers the fully cooked (the internal temperature has reached 160 degrees F). Transfer the patties to the bun bottoms. Top with pickles and the buttered bun tops."
+  },
+  {
+    "id": 2,
+    "title": "Homemade Yogurt",
+    "image": "https://www.seriouseats.com/2019/06/20190614-yogurt-vicky-wasik-8-1500x1125.jpg",
+    "ingredients": [
+      "1/2 gallon milk. ",
+      "2 tablespoons yogurt with active live cultures. "
+    ],
+    "instructions": "In a medium saucepan or saucier, heat milk gently over medium heat until it reaches 180°F (82°C) on an instant-read thermometer. Keep the milk between 180 and 190°F (82 to 88°C) for at least 10 minutes and up to 30 minutes (how long you hold the milk at this temperature will change how much water steams off and how concentrated the milk proteins and fats end up, changing the final texture of the yogurt; there's no one right way to do it). Allow the milk to cool to about 110°F (43°C). In a small bowl, stir together the yogurt with a few spoonfuls of the warm milk, then scrape the yogurt mixture into the pot of lukewarm milk. Stir well to distribute the yogurt culture. Transfer the cultured milk to glass jars, the vessels of a yogurt maker, an Indian clay yogurt pot, or whatever incubating device you may have, such as a slow cooker or Instant Pot. Cover the jars and keep warm; how you do this depends on what you have at home. You can submerge the jars up to their necks in the temperature-controlled water of an immersion circulator (set to 110°F or the incubation temperature of your choosing); place them in a turned-off oven with the light switched on; wrap them in kitchen towels and hold them in a warm place; submerge them in 110°F water held in a cooler; use a yogurt maker, etc. How long it takes the yogurt to set will depend on the temperature at which it is held. This can be as short as 3 or 4 hours and as long as 18 hours. Once the yogurt has set, allow it to sit out at room temperature for up to an additional 12 hours to ensure a strong culture; if you're working with a culture you know well, you may not need to let it sit out for so long, especially if you don't want it to grow too sour. There's no one good rule here except to give the yogurt the time it needs to sour and thicken properly. Transfer the yogurt to the refrigerator and, if you can, let it set for another 2 or 3 days before eating it (all this time is simply to allow the culture to grow strong). Strain it to make Greek yogurt, if desired. If you plan to use this yogurt to inoculate future batches, make sure to set a few tablespoons aside."
+  },
+  {
+    "id": 3,
+    "title": "Funky French Toast",
+    "image": "https://d1e3z2jco40k3v.cloudfront.net/-/media/mccormick-us/recipes/mccormick/q/2000/quick_and_easy_french_toast_new_2000x1125.jpg?vd=20200628T070902Z&hash=BC3427A3F141526D1217F3589AEA487D",
+    "ingredients": [
+      "1 egg. ",
+      "1 teaspoon pure vanilla extract. ",
+      "1/2 cup milk. ",
+      "4 slices of bread. "
+    ],
+    "instructions": "Beat egg, vanilla and cinnamon in shallow dish. Stir in milk. Dip bread in egg mixture, turning to coat both sides evenly. Cook bread slices on lightly greased nonstick griddle or skillet on medium heat until browned on both sides. Serve with Easy Spiced Syrup (recipe follows), if desired. Easy Spiced Syrup: Add 1 teaspoon McCormick® Pure Vanilla Extract and 1/4 teaspoon McCormick® Ground Cinnamon to 1 cup pancake syrup; stir well to mix. Serve warm, if desired."
+  },
+  {
+    "id": 4,
+    "title": "Tomato Basil Soup",
     "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/9/29/0/ig1a05_tomato_soup.jpg.rend.hgtvcom.826.620.suffix/1485889312843.jpeg",
     "ingredients": [
-      "1 teaspoon baking powder",
-      "1 teaspoon fine salt",
-      "1/2 cup vegetable oil",
-      "5 large eggs",
-      "1 tablespoon pure vanilla extract",
-      "1 cup milk",
-      "2 cups sugar"
+      "Tomatos",
+      "1 Onion",
+      "1/2 more tomatos. ",
+      "Much more tomatos. ",
+      "A lot of tomatos. ",
+      "Trucks of tomatos. ",
+      "2 cups sugar. "
     ],
     "instructions": "Preheat the oven to 350 degrees F. Butter the bottoms and sides of two 9-inch round cake pans; dust with flour, and tap out the excess. Whisk together the flour, baking powder and salt in a medium bowl; set aside. Beat the butter, sugar and oil in a large bowl with an electric mixer on medium-high speed until light in color and fluffy, about 5 minutes. Beat in the eggs, one at a time, and then the vanilla until combined. Alternate folding the flour mixture and the milk into the batter with a spatula, adding the flour in three additions and the milk in two, starting and ending with the flour, until just smooth. Divide the batter evenly between the prepared pans. Bake the cakes on the same oven rack until golden on top and the centers spring back to the touch, 35 to 40 minutes. Rotate the pans about halfway through if they seem to be browning unevenly. Let cool in the pans about 10 minutes, then turn out onto cooling racks and let cool completely."
+  },
+  {
+    "id": 5,
+    "title": "Froot Loops Cereal",
+    "image": "https://i.redd.it/8qd4jdx59u231.jpg",
+    "ingredients": [
+      "1 bowl. ",
+      "1 spoon. ",
+      "1 cup milk. ",
+      "1 cup Froot Loop Cereal. "
+    ],
+    "instructions": "Gently set bowl on your table and place your spoon in your bowl. Next open the box of Froot Loops and lightly pour desired amount into bowl. Careful not to over fill. Unscrew lid to milk and pour desired milk to cereal ratio. If this is your first time do about a 1:1 ratio of milk to cereal. Lift spoon to mouth and enjoy."
   }
 ]

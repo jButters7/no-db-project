@@ -34,12 +34,12 @@ class EditRecipe extends Component {
   render() {
     const { title, image, ingredients, instructions } = this.state
     return (
-      <div>
-        <input value={title} onChange={e => this.handleEditRecipe(e)} placeholder="Title" name="title"></input>
-        <input value={image} onChange={e => this.handleEditRecipe(e)} placeholder="Image" name="image"></input>
-        <input value={ingredients} onChange={e => this.handleEditRecipe(e)} placeholder="Ingredients" name="ingredients"></input>
-        <input value={instructions} onChange={e => this.handleEditRecipe(e)} placeholder="Instructions" name="instructions"></input>
-        <button onClick={() => this.sendEdits(this.state)}>Save Changes</button>
+      <div className='input-container input-recipe'>
+        <input value={title} onChange={e => this.handleEditRecipe(e)} placeholder="Title" name="title" className="input-title"></input>
+        <input value={image} onChange={e => this.handleEditRecipe(e)} placeholder="Image URL" name="image" className="input-image"></input>
+        <textarea value={ingredients} onChange={e => this.handleEditRecipe(e)} placeholder="Ingredients" name="ingredients" className="input-ingredients"></textarea>
+        <textarea value={instructions} onChange={e => this.handleEditRecipe(e)} placeholder="Instructions" name="instructions" className="input-instructions"></textarea>
+        <button onClick={() => this.sendEdits(this.state)} className="submit-btn">Save Changes</button>
       </div>
     )
   }

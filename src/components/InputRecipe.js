@@ -36,12 +36,12 @@ class InputRecipe extends Component {
   render() {
     const { title, image, ingredients, instructions } = this.state
     return (
-      <div className="input" id="add-recipe">
-        <input value={title} onChange={e => this.handleNewRecipe(e)} placeholder="Title" name="title"></input>
-        <input value={image} onChange={e => this.handleNewRecipe(e)} placeholder="Image" name="image"></input>
-        <input value={ingredients} onChange={e => this.handleNewRecipe(e)} placeholder="Ingredients" name="ingredients"></input>
-        <input value={instructions} onChange={e => this.handleNewRecipe(e)} placeholder="Instructions" name="instructions"></input>
-        <button onClick={this.sendRecipe}>Add Recipe</button>
+      <div className="input-container" id="add-recipe">
+        <input value={title} type='text' onChange={e => this.handleNewRecipe(e)} placeholder="Recipe Title" name="title" className="input-title"></input>
+        <input value={image} type='text' onChange={e => this.handleNewRecipe(e)} placeholder="Image URL" name="image" className="input-image"></input>
+        <textarea value={ingredients} type='text' onChange={e => this.handleNewRecipe(e)} placeholder="Ingredients" name="ingredients" className="input-ingredients"></textarea>
+        <textarea value={instructions} type='text' onChange={e => this.handleNewRecipe(e)} placeholder="Instructions" name="instructions" className="input-instructions" size='40' line-height='60px'></textarea>
+        <button onClick={this.sendRecipe} className="submit-btn">Add Recipe</button>
       </div>
     )
   }

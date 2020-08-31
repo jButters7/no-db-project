@@ -60,6 +60,12 @@ class Display extends Component {
     })
   }
 
+  // searchRecipes(e) {
+  //   this.setState({
+  //     [e.target.name]: e.target.value
+  //   })
+  // }
+
   render() {
     return (
       <div>
@@ -68,7 +74,10 @@ class Display extends Component {
             <Recipe key={element.id} data={element} deleteRecipe={this.deleteRecipe} editRecipe={this.editRecipe} />
           )
         })}
-        <InputRecipe addRecipe={this.addRecipe} />
+        <h2>Add A New Recipe</h2>
+        <div className="input-recipe">
+          <InputRecipe addRecipe={this.addRecipe} />
+        </div>
       </div>
     )
   }

@@ -21,8 +21,17 @@ class Recipe extends Component {
 
   render() {
     const { id, title, image, ingredients, instructions } = this.props.data
+
+    // let ulIngredients = ingredients.map(element => {
+    //   return (
+    //     <ul>
+    //       <li>{element}</li>
+    //     </ul>
+    //   )
+    // })
     return (
       <div>
+
         <div className={
           this.state.editRecipe ? "hide-recipe" : "show-recipe"}>
           <div className='recipe-title'>
@@ -40,6 +49,7 @@ class Recipe extends Component {
             <div className='instructions'><b>Instructions:</b> <br />{instructions}</div>
           </div>
         </div >
+
         <div className={
           this.state.editRecipe ? "display-editor" : "hide-editor"} >
           <EditRecipe
@@ -47,6 +57,7 @@ class Recipe extends Component {
             editRecipe={this.props.editRecipe}
             hideEditor={this.hideEditor} />
         </div>
+
       </div>
     )
   }
