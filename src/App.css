@@ -64,6 +64,8 @@ input{
   padding: 10px;
   font-family: sans-serif;
   font-size: 30px;
+  /* border: solid 1.5px gray; */
+  border-bottom: none;
 }
 
 .recipe-info{
@@ -75,6 +77,8 @@ input{
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 20px;
+  /* border: solid 1.5px gray; */
+  border-top: none;
 }
 
 .title{
@@ -127,3 +131,18 @@ line-height: 20px;
   line-height: 20px;
 }
 
+.display-editor{
+  display: flex;
+}
+
+.hide-editor{
+  display: none;
+}
+
+.hide-recipe{
+  display: none;
+}
+
+.show-recipe{
+  display: visible;
+}

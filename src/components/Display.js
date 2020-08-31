@@ -40,8 +40,7 @@ class Display extends Component {
   }
 
   editRecipe(id, obj) {
-    console.log("id:", id, "obj", obj)
-    axios.put(`/api/recipes/${id}`, { obj }).then(res => {
+    axios.put(`/api/recipes/${id}`, obj).then(res => {
       this.setState({
         recipes: res.data
       })

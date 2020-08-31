@@ -28,12 +28,7 @@ class EditRecipe extends Component {
     const editedRecipe = { title, image, ingredients, instructions }
     console.log(editedRecipe)
     this.props.editRecipe(id, editedRecipe)
-    this.setState({
-      title: '',
-      image: '',
-      ingredients: '',
-      instructions: '',
-    })
+    this.props.hideEditor()
   }
 
   render() {
@@ -44,7 +39,7 @@ class EditRecipe extends Component {
         <input value={image} onChange={e => this.handleEditRecipe(e)} placeholder="Image" name="image"></input>
         <input value={ingredients} onChange={e => this.handleEditRecipe(e)} placeholder="Ingredients" name="ingredients"></input>
         <input value={instructions} onChange={e => this.handleEditRecipe(e)} placeholder="Instructions" name="instructions"></input>
-        <button onClick={() => this.sendEdits(this.state.id)}>Save Changes</button>
+        <button onClick={() => this.sendEdits(this.state)}>Save Changes</button>
       </div>
     )
   }

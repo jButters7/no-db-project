@@ -20,15 +20,13 @@ module.exports = {
     res.status(200).send(recipes)
 
   },
+
   editRecipe: (rec, res) => {
-    console.log("backend Id", id)
     const { id } = rec.params
     const { title, image, ingredients, instructions } = rec.body
     const index = recipes.findIndex(element => {
-      console.log(`element:`, element.id)
       return element.id === +id
     })
-    console.log(id, index)
     if (index === -1) {
       res.status(404).send("Recipe id not found.")
     }
@@ -41,6 +39,7 @@ module.exports = {
       ingredients: ingredients || recipes[index].ingredients,
       instructions: instructions || recipes[index].instructions,
     }
+
     recipes[index] = updatedRecipe;
 
     res.status(200).send(recipes)
